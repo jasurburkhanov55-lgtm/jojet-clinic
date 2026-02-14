@@ -3,11 +3,8 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { ArrowRight, Award, Users, Star, Calendar } from 'lucide-react';
 import useScrollAnimation from '../hooks/useScrollAnimation';
-ReactDOM.createRoot(document.getElementById('root')!).render(
-  <React.StrictMode>
-    <BrowserRouter basename="/jojet-clinic">
 
-const Home = () => {
+  const Home = () => {
   const { t } = useTranslation();
   const heroRef = useRef<HTMLDivElement>(null);
 
