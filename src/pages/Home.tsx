@@ -28,7 +28,7 @@ const Home = () => {
       link: '/services/face',
     },
     {
-      image: '/jojet-clinic/jojet-clinic/images/service-facelift.jpg',
+      image: '/jojet-clinic/images/service-facelift.jpg',
       title: 'Facelift',
       description: 'Turn back time with natural rejuvenation',
       link: '/services/face',
