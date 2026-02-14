@@ -22,25 +22,25 @@ import useScrollAnimation from '../hooks/useScrollAnimation';
 
   const services = [
     {
-      image: '/images/service-rhinoplasty.jpg',
+      image: '/jojet-clinic/images/service-rhinoplasty.jpg',
       title: 'Rhinoplasty',
       description: 'Sculpt the perfect nose for facial harmony',
       link: '/services/face',
     },
     {
-      image: '/images/service-facelift.jpg',
+      image: '/jojet-clinic/images/service-facelift.jpg',
       title: 'Facelift',
       description: 'Turn back time with natural rejuvenation',
       link: '/services/face',
     },
     {
-      image: '/images/service-breast.jpg',
+      image: '/jojet-clinic/images/service-breast.jpg',
       title: 'Breast Augmentation',
       description: 'Enhance your silhouette with artistry',
       link: '/services/breast',
     },
     {
-      image: '/images/service-liposuction.jpg',
+      image: '/jojet-clinic/images/service-liposuction.jpg',
       title: 'Liposuction',
       description: 'Sculpt your ideal body contours',
       link: '/services/body',
@@ -49,21 +49,21 @@ import useScrollAnimation from '../hooks/useScrollAnimation';
 
   const testimonials = [
     {
-      image: '/images/testimonial-1.jpg',
+      image: '/jojet-clinic/images/testimonial-1.jpg',
       name: 'Sofia M.',
       procedure: 'Rhinoplasty',
       quote: 'Dr. Jasurjon is a true artist. My results exceeded all expectations - natural, elegant, and perfectly suited to my face.',
       rating: 5,
     },
     {
-      image: '/images/testimonial-2.jpg',
+      image: '/jojet-clinic/images/testimonial-2.jpg',
       name: 'Elizabeth R.',
       procedure: 'Facelift',
       quote: 'The entire experience was exceptional. From consultation to recovery, I felt cared for and confident in every decision.',
       rating: 5,
     },
     {
-      image: '/images/testimonial-3.jpg',
+      image: '/jojet-clinic/images/testimonial-3.jpg',
       name: 'Michael T.',
       procedure: 'Gynecomastia',
       quote: 'Finally, I have the confidence to be myself. Dr. Burkhanov understood exactly what I needed and delivered beyond my hopes.',
@@ -88,7 +88,7 @@ import useScrollAnimation from '../hooks/useScrollAnimation';
           className="absolute inset-0 w-full h-[120%] -top-[10%]"
         >
           <img
-            src="/images/hero-bg.jpg"
+            src="/jojet-clinic/images/hero-bg.jpg"
             alt="Luxury aesthetic clinic"
             className="w-full h-full object-cover"
           />
@@ -153,7 +153,7 @@ import useScrollAnimation from '../hooks/useScrollAnimation';
             <ScrollAnimation animation="slideLeft">
               <div className="relative">
                 <img
-                  src="/images/dr-jasurjon.jpg"
+                  src="/jojet-clinic/images/dr-jasurjon.jpg"
                   alt="Dr. Jasurjon Burkhanov"
                   className="w-full max-w-md mx-auto"
                 />
@@ -267,7 +267,7 @@ import useScrollAnimation from '../hooks/useScrollAnimation';
           </ScrollAnimation>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {['/images/before-after-1.jpg', '/images/before-after-2.jpg', '/images/before-after-3.jpg'].map((image, index) => (
+            {['/jojet-clinic/images/before-after-1.jpg', '/jojet-clinic/images/before-after-2.jpg', '/jojet-clinic/images/before-after-3.jpg'].map((image, index) => (
               <ScrollAnimation key={index} animation="scaleIn" delay={index * 100}>
                 <div className="relative overflow-hidden group cursor-pointer">
                   <img
@@ -351,7 +351,7 @@ import useScrollAnimation from '../hooks/useScrollAnimation';
       </section>
 
       {/* CTA Section */}
-      <section className="relative py-24 bg-fixed bg-cover bg-center" style={{ backgroundImage: 'url(/images/clinic-interior.jpg)' }}>
+      <section className="relative py-24 bg-fixed bg-cover bg-center" style={{ backgroundImage: 'url(/jojet-clinic/images/clinic-interior.jpg)' }}>
         <div className="absolute inset-0 bg-dark/80" />
         <div className="relative z-10 container-luxury">
           <ScrollAnimation animation="scaleIn">
