@@ -6,13 +6,4 @@ export default defineConfig({
   plugins: [react()],
   base: '/jojet-clinic/',  // 
 })
-// https://vite.dev/config/
-export default defineConfig({
-  base: '/jojet-clinic/',
-  plugins: [inspectAttr(), react()],
-  resolve: {
-    alias: {
-      "@": path.resolve(__dirname, "./src"),
-    },
-  },
-});
+
