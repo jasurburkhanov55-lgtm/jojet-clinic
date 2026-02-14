@@ -5,7 +5,7 @@ import { inspectAttr } from 'kimi-plugin-inspect-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/Jojet-clinic/',
+  base: '/jojet-clinic/',
   plugins: [inspectAttr(), react()],
   resolve: {
     alias: {
